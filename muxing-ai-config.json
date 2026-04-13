@@ -493,7 +493,7 @@
         "whisper-1",
         "z-image-turbo"
       ],
-      "primaryModel": "kimi-k2",
+      "primaryModel": "gpt-5.4",
       "tags": "default",
       "status": "ok",
       "lastTest": "2026-04-13T09:41:10.448Z",
@@ -508,11 +508,13 @@
         "bytedance-seed/dola-seed-2.0-pro",
         "deepseek-r1-250528",
         "deepseek-v3-250324",
+        "deepseek-v3.2",
         "doubao-1-5-pro-32k-250115",
         "doubao-seed-1-6-251015",
         "doubao-seed-1-8-251228",
         "doubao-seed-2-0-pro-260215",
         "doubao-seedance-1-5-pro-251215",
+        "glm-5.1",
         "grok-3",
         "grok-3-mini",
         "grok-3-thinking",
@@ -524,14 +526,52 @@
         "grok-4.1-mini",
         "grok-4.1-thinking",
         "grok-4.20-beta",
+        "kimi-k2.5",
         "nvidia/nemotron-3-super-120b-a12b",
         "x-ai/grok-code-fast-1:optimized"
       ],
       "primaryModel": "bytedance-seed/dola-seed-2.0-pro",
       "tags": "",
       "status": "ok",
-      "lastTest": "2026-04-13T04:19:15.899Z",
-      "lastLatency": 831
+      "lastTest": "2026-04-13T21:27:23.766Z",
+      "lastLatency": 588
+    },
+    {
+      "id": "node-mnxqclmkdkai",
+      "name": "121312",
+      "baseUrl": "https://windhub.cc",
+      "apiKey": "sk-Z0DVBwNGCMKHkDcup8VkM59yjVIHXXoy6cZWfAiJkso7KXlp",
+      "models": [
+        "bytedance-seed/dola-seed-2.0-pro",
+        "deepseek-r1-250528",
+        "deepseek-v3-250324",
+        "deepseek-v3.2",
+        "doubao-1-5-pro-32k-250115",
+        "doubao-seed-1-6-251015",
+        "doubao-seed-1-8-251228",
+        "doubao-seed-2-0-pro-260215",
+        "doubao-seedance-1-5-pro-251215",
+        "glm-5.1",
+        "grok-3",
+        "grok-3-mini",
+        "grok-3-thinking",
+        "grok-4",
+        "grok-4-heavy",
+        "grok-4-thinking",
+        "grok-4.1-expert",
+        "grok-4.1-fast",
+        "grok-4.1-mini",
+        "grok-4.1-thinking",
+        "grok-4.20-beta",
+        "kimi-k2.5",
+        "nvidia/nemotron-3-super-120b-a12b",
+        "x-ai/grok-code-fast-1:optimized"
+      ],
+      "primaryModel": "bytedance-seed/dola-seed-2.0-pro",
+      "tags": "",
+      "status": "ok",
+      "lastTest": "2026-04-13T21:54:07.524Z",
+      "lastLatency": 676
     }
   ],
   "toolBindings": {
@@ -539,7 +579,7 @@
       "nodeId": "node-mnwokvv9g5li"
     },
     "photo": {
-      "nodeId": "node-mnwokvv9g5li"
+      "nodeId": "node-mnwoo1rwnf6p"
     }
   }
 }
