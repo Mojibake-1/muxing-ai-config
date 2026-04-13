@@ -1,1 +1,19 @@
-{"version":1,"nodes":[],"defaultNodeId":"","defaultModel":"","toolBindings":{}}
+{
+  "version": 1,
+  "nodes": [
+    {
+      "id": "node-mnwokvv9g5li",
+      "name": "云雾",
+      "baseUrl": "https://yunwu.ai",
+      "apiKey": "sk-mKKDJ8ogjswfFXWA7ODAiW4XwiIFkJqkKXs0ywVriNJHgaMg",
+      "models": [],
+      "tags": "付费",
+      "status": "idle",
+      "lastTest": null,
+      "lastLatency": null
+    }
+  ],
+  "defaultNodeId": "node-mnwokvv9g5li",
+  "defaultModel": "",
+  "toolBindings": {}
+}
