@@ -493,7 +493,7 @@
         "whisper-1",
         "z-image-turbo"
       ],
-      "primaryModel": "gpt-5.4",
+      "primaryModel": "kimi-k2",
       "tags": "default",
       "status": "ok",
       "lastTest": "2026-04-13T09:41:10.448Z",
@@ -536,6 +536,9 @@
   ],
   "toolBindings": {
     "rufus": {
+      "nodeId": "node-mnwokvv9g5li"
+    },
+    "photo": {
       "nodeId": "node-mnwokvv9g5li"
     }
   }
