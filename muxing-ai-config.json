@@ -577,7 +577,7 @@
         "gpt-image-2"
       ],
       "primaryModel": "gpt-5.5",
-      "reasoningEffort": "auto",
+      "reasoningEffort": "xhigh",
       "tags": "",
       "status": "idle",
       "lastTest": "2026-04-27T03:31:43.791Z",
