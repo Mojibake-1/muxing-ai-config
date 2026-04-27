@@ -514,9 +514,9 @@
       "primaryModel": "gpt-5.5",
       "reasoningEffort": "auto",
       "tags": "default",
-      "status": "idle",
-      "lastTest": "2026-04-27T03:53:13.076Z",
-      "lastLatency": 726
+      "status": "ok",
+      "lastTest": "2026-04-27T05:14:51.439Z",
+      "lastLatency": 1049
     },
     {
       "id": "node-mnxqclmkdkai",
@@ -564,7 +564,7 @@
     {
       "id": "node-mogn3zyarftj",
       "name": "CPA",
-      "baseUrl": "http://38.123.103.240:45047",
+      "baseUrl": "https://cpa.001027.xyz",
       "apiKey": "sk-c52dfd8fdf8397e0821711673868b2c2a3f24f70fba38216",
       "models": [
         "codex-auto-review",
@@ -579,9 +579,9 @@
       "primaryModel": "gpt-5.5",
       "reasoningEffort": "xhigh",
       "tags": "",
-      "status": "idle",
-      "lastTest": "2026-04-27T03:31:43.791Z",
-      "lastLatency": 2092
+      "status": "ok",
+      "lastTest": "2026-04-27T05:19:08.267Z",
+      "lastLatency": 2619
     }
   ],
   "toolBindings": {
