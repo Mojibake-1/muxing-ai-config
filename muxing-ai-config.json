@@ -3,7 +3,7 @@
   "nodes": [
     {
       "id": "node-mnwokvv9g5li",
-      "name": "云雾",
+      "name": "云雾（备用",
       "baseUrl": "https://yunwu.ai",
       "apiKey": "sk-joL64mQ7tZUTLWGScxvRtLabbeyYdW6ogH5Mj9MRpmghDjxu",
       "models": [
@@ -514,13 +514,13 @@
       "primaryModel": "gpt-5.5",
       "reasoningEffort": "auto",
       "tags": "default",
-      "status": "ok",
+      "status": "idle",
       "lastTest": "2026-04-27T05:14:51.439Z",
       "lastLatency": 1049
     },
     {
       "id": "node-mnxqclmkdkai",
-      "name": "Ark",
+      "name": "Ark（备用",
       "baseUrl": "https://windhub.cc",
       "apiKey": "sk-Z0DVBwNGCMKHkDcup8VkM59yjVIHXXoy6cZWfAiJkso7KXlp",
       "models": [
@@ -563,7 +563,7 @@
     },
     {
       "id": "node-mogn3zyarftj",
-      "name": "CPA",
+      "name": "CPA（主力",
       "baseUrl": "https://cpa.001027.xyz",
       "apiKey": "sk-c52dfd8fdf8397e0821711673868b2c2a3f24f70fba38216",
       "models": [
@@ -580,8 +580,8 @@
       "reasoningEffort": "xhigh",
       "tags": "",
       "status": "ok",
-      "lastTest": "2026-04-27T05:19:08.267Z",
-      "lastLatency": 2619
+      "lastTest": "2026-04-27T07:13:29.935Z",
+      "lastLatency": 3113
     }
   ],
   "toolBindings": {
