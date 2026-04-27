@@ -511,9 +511,10 @@
         "whisper-1",
         "z-image-turbo"
       ],
-      "primaryModel": "gpt-5.4",
+      "primaryModel": "gpt-5.5",
+      "reasoningEffort": "auto",
       "tags": "default",
-      "status": "ok",
+      "status": "idle",
       "lastTest": "2026-04-27T03:53:13.076Z",
       "lastLatency": 726
     },
@@ -553,9 +554,10 @@
         "nvidia/nemotron-3-super-120b-a12b",
         "x-ai/grok-code-fast-1:optimized"
       ],
-      "primaryModel": "bytedance-seed/dola-seed-2.0-pro",
+      "primaryModel": "doubao-seed-2-0-pro-260215",
+      "reasoningEffort": "auto",
       "tags": "",
-      "status": "ok",
+      "status": "idle",
       "lastTest": "2026-04-27T04:01:57.508Z",
       "lastLatency": 3177
     },
@@ -574,9 +576,10 @@
         "gpt-5.5",
         "gpt-image-2"
       ],
-      "primaryModel": "codex-auto-review",
+      "primaryModel": "gpt-5.5",
+      "reasoningEffort": "auto",
       "tags": "",
-      "status": "ok",
+      "status": "idle",
       "lastTest": "2026-04-27T03:31:43.791Z",
       "lastLatency": 2092
     }
