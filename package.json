@@ -1,0 +1,55 @@
+{
+  "name": "@muxing/platform",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Versioned platform contract package for Muxing workstation tools.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./config": {
+      "types": "./dist/config.d.ts",
+      "import": "./dist/config.js"
+    },
+    "./tool-bridge": {
+      "types": "./dist/tool-bridge.d.ts",
+      "import": "./dist/tool-bridge.js"
+    },
+    "./theme": {
+      "types": "./dist/theme.d.ts",
+      "import": "./dist/theme.js"
+    },
+    "./theme-bridge": {
+      "types": "./dist/theme-bridge.d.ts",
+      "import": "./dist/theme-bridge.js"
+    },
+    "./muxing-ai-config.json": "./muxing-ai-config.json"
+  },
+  "files": [
+    "dist",
+    "muxing-ai-config.json",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json && node scripts/build-static-assets.mjs",
+    "sync:static-consumers": "npm run build && node scripts/sync-static-consumers.mjs --write",
+    "check:static-consumers": "npm run build && node scripts/sync-static-consumers.mjs --check",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "npm run build && vitest run",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "zod": "^4.1.13"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.25",
+    "esbuild": "^0.28.0",
+    "jsdom": "^29.1.1",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.15"
+  }
+}
